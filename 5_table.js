@@ -7,9 +7,18 @@ const rl = readline.createInterface({
 
 rl.question('Enter a number: ', (number) => {
 
-    for (let i = 1; i < 11; i++) {
+    let i = 1;
+
+    const printTable = () => {
         console.log(`${number} x ${i} = ${number * i}`);
-    }
-    
-    rl.close();
+        i++;
+        if (i <= 10) {
+            setTimeout(printTable, 1000);
+        } else {
+            console.log("Done");
+            rl.close();
+        }
+    };
+
+    printTable();
 });
