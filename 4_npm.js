@@ -75,7 +75,24 @@ x = 1;
 //     }
 // }
 
-// countDown(10);
+
+// Using setInterval
+
+// function countDownIn(fromNumber) {
+//     console.log(fromNumber);
+//     let intervalId = setInterval(function () {
+//         fromNumber--;
+
+//         if (fromNumber > 0) {
+//             console.log(fromNumber);
+//         } else {
+//             console.log("End");
+//             clearInterval(intervalId);
+//         }
+//     }, 1000)
+// }
+
+// countDownIn(5);
 
 function welcome() {
     console.log("Welcom to timer code set timeout");
@@ -95,3 +112,5 @@ var id3 = setImmediate(welcome2);
 
 clearTimeout(id1);
 clearInterval(id2);
+
+
