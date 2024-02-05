@@ -1,10 +1,15 @@
 const { readFileSync, writeFileSync } = require('fs')
+// const fs = require('fs')
+
+// fs.readFileSync // synchronous
+// fs.readFile // asynchronous
+
 console.log('start')
-const first = readFileSync('./content/first.txt', 'utf8')
-const second = readFileSync('./content/second.txt', 'utf8')
+const first = readFileSync('./freeCodeCamp\\01-node-tutorial\\content\\first.txt', 'utf8')
+const second = readFileSync('./freeCodeCamp\\01-node-tutorial\\content\\second.txt', 'utf8')
 
 writeFileSync(
-  './content/result-sync.txt',
+  './freeCodeCamp\\01-node-tutorial\\content\\result-sync.txt',
   `Here is the result : ${first}, ${second}`,
   { flag: 'a' }
 )
