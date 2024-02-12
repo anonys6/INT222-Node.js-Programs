@@ -43,3 +43,4 @@ num3.forEach(function(num, i) {
     console.log(num);
 });
 console.log(num3);
+
