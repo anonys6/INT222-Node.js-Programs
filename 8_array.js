@@ -44,3 +44,7 @@ num3.forEach(function(num, i) {
 });
 console.log(num3);
 
+const num5 = [10, 4, 6, 8, 2];
+console.log(num5.sort(function(a, b) {
+    return a - b;
+}));
