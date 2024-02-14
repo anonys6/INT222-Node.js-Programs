@@ -28,23 +28,23 @@ console.log(num2 + "," + num3);
 
 const num4 = num1.concat(num2, num3);
 console.log(num4);
-const even = num4.every(function(e) {
+const even = num4.every(function (e) {
     return e % 2 === 0;
 });
 console.log(even);
 
-const odd = num4.filter(function(e) {
+const odd = num4.filter(function (e) {
     return e % 2 !== 0;
 });
 console.log(odd);
 
-num3.forEach(function(num, i) {
+num3.forEach(function (num, i) {
     num3[i] = num3[i] ** 2;
     console.log(num);
 });
 console.log(num3);
 
 const num5 = [10, 4, 6, 8, 2];
-console.log(num5.sort(function(a, b) {
+console.log(num5.sort(function (a, b) {
     return a - b;
 }));
