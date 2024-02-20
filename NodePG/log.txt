@@ -1,0 +1,17 @@
+1708464071535: New request received from IP: ::1 and path: /about
+1708464071563: New request received from IP: ::1 and path: /favicon.ico
+1708464074645: New request received from IP: ::1 and path: /about
+1708464074670: New request received from IP: ::1 and path: /favicon.ico
+1708464077581: New request received from IP: ::1 and path: /
+1708464077613: New request received from IP: ::1 and path: /favicon.ico
+1708464114021: New request received from IP: ::1 and path: /
+1708464133175: New request received from IP: ::1 and path: /
+1708464159650: New request received from IP: ::1 and path: /
+1708464215272: New request received from IP: ::1 and path: /
+1708464215327: New request received from IP: ::1 and path: /favicon.ico
+1708464219503: New request received from IP: ::1 and path: /about
+1708464219536: New request received from IP: ::1 and path: /favicon.ico
+1708464223761: New request received from IP: ::1 and path: /ab
+1708464223791: New request received from IP: ::1 and path: /favicon.ico
+1708464225924: New request received from IP: ::1 and path: /
+1708464225966: New request received from IP: ::1 and path: /favicon.ico
