@@ -43,10 +43,69 @@ everything about javascript buffer
 
 
 
-const b1 = Buffer.from('This is Node.js class');
-const b2 = Buffer.from('34342423432eca334', 'hex');
+// const b1 = Buffer.from('This is Node.js class');
+// const b2 = Buffer.from('34342423432eca334', 'hex');
 
-console.log(b1);
-console.log(b2);
-console.log(b1.toString());
-console.log(b2.toString());
+// console.log(b1);
+// console.log(b2);
+// console.log(b1.toString());
+// console.log(b2.toString());
+
+// const buf3=Buffer.from('Abcdefgah');
+// console.log(buf3.includes(61));
+
+// const buf = Buffer.alloc(5);
+// console.log(buf.fill("hello", 2, 4));
+
+// const buf1 = Buffer.from('This is Node.js class');
+// const buf2 = Buffer.from('54686973206973204e6f64652e6a7320636c617373', 'hex');
+// console.log(buf1.toString('hex', 5, 15));
+// console.log(buf2.toString('utf8', 5, 10));
+
+// buf=new Buffer.alloc(50);
+// n=buf.write('This is Nodejs class ');
+// console.log('The number of octets are:'+n);
+
+// var buf1 = Buffer.from('wow');
+// var buf2= Buffer.from('hello');
+// var buf3 = Buffer.concat([buf1,buf2],5);
+// console.log("The contents are " + buf3.toString());
+
+// var buffer1 = Buffer.from('ABCD');
+// var buffer2 = Buffer.from('ABcD');
+// var result = buffer1.compare(buffer2);
+// if(result === 0)
+// {
+// console.log(buffer1+"is equal to "+ buffer2);
+// }
+// else
+// {
+// console.log(buffer1+"is not equal to"+ buffer2);
+// }
+
+// var buffer1 = Buffer.from('This is Nodejs');
+// var buffer2 = Buffer.alloc(10);
+// buffer1.copy(buffer2,4,4,10);
+// console.log("buffer2 content: " + buffer2.toString());
+
+
+
+// Create an empty buffer of size 10. // A buffer that only can accommodate 10 bytes.
+const buf1 = Buffer.alloc(10);
+// Create a buffer with content
+const buf2 = Buffer.from("hello buffer");
+// Once your buffer has been created, you can start interacting with it
+
+// Examine the structure of a buffer
+console.log(buf1.toJSON());// { type: 'Buffer', data: [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] }// an empty buffer
+console.log(buf2.toJSON());// { type: 'Buffer',     data: [        104, 101, 108, 108, 111, 32, 98, 117, 102, 102, 101, 114      ]    }
+// the toJSON() method presents the data as the Unicode Code Points of the characters
+// Examine the size of a buffer
+console.log(buf1.length); // 10
+console.log(buf2.length) // 12. Auto-assigned based on the initial content when created.
+// Write to a bufferbuf1.write("Buffer really rocks!")
+buf1.write("Buffer really rocks!");
+// Decode a buffer
+console.log(buf1.toString()) // 'Buffer rea'
+//oops, because buf1 is created to contain only 10 bytes, it couldn't accommodate the rest of the characters
+// Compare two buffers
