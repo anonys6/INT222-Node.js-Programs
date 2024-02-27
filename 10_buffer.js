@@ -109,3 +109,9 @@ buf1.write("Buffer really rocks!");
 console.log(buf1.toString()) // 'Buffer rea'
 //oops, because buf1 is created to contain only 10 bytes, it couldn't accommodate the rest of the characters
 // Compare two buffers
+
+// fft is a computational tool that helps digital computer to analyze tool
+// it is an algorithm that computes discrete of a sequence or of its inverse dft (idft)
+// formula = x[k] = 1/N * sum(x[n] * e^(-2 * pi * i * k * n / N))
+// the fft algorithms converts a digital signal form the time domain into a signal in the frequency domain
+// the fft is an important method in the sign of audio and acoustic measurements
