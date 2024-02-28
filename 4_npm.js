@@ -10,18 +10,18 @@ y = 10;
 
 
 
-// let person = { fname: "John", lname: "Doe", age: 25 };
+let person = { fname: "John", lname: "Doe", age: 25 };
 
-// for (let x in person) {
-//     console.log(x);
-// }
+for (let x in person) {
+    console.log(x + " : " + person[x]);
+}
 
 
 
-// let cars = ['BMW', 'Volvo', 'Mini'];
-// for (let x of cars) {
-//     console.log(x);
-// }
+let cars = ['BMW', 'Volvo', 'Mini'];
+for (let x of cars) {
+    console.log(x);
+}
 
 
 console.log("\nLOOP\n");
@@ -95,7 +95,7 @@ x = 1;
 // countDownIn(5);
 
 function welcome() {
-    console.log("Welcom to timer code set timeout");
+    console.log("Welcome to timer code set timeout");
 }
 
 function welcome1() {
