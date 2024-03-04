@@ -19,7 +19,7 @@ const myServer = http.createServer((req, res) => {
     });
 });
 
-//  one server can run one server
+//  one port can run one server
 //  using req object we can find who is requesting and act accordingly
 
 myServer.listen(8000, () => console.log("Server is running"));
