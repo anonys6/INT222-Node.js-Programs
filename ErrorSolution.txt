@@ -1,0 +1,3 @@
+cant run script like nodemon:-
+powershell with admin rights and cmd
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
