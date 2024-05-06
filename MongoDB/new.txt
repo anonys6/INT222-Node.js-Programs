@@ -1,0 +1,662 @@
+clay@clay:~$ brew install mongodb-atlas
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Downloading https://ghcr.io/v2/homebrew/core/mongodb-atlas-cli/manifests/1.2
+ 
+==> Fetching dependencies for mongodb-atlas-cli: brotli, c-ares, icu4c, libnghttp2, libuv, ca-certificates, openssl@3, mpdecimal, ncurses, readline, zlib, sqlite, xz, berkeley-db@5, libedit, krb5, libtirpc, libnsl, bzip2, expat, libffi, libxcrypt, unzip, python@3.12, node, mongosh, pcre2, dbus, util-linux, glib, libseccomp, libcap, lz4, zstd, systemd, conmon, yajl, crun, libfuse, fuse-overlayfs, gmp, libunistring, libidn2, libtasn1, nettle, p11-kit, libevent, unbound, gnutls, libgpg-error, libassuan, libgcrypt, libksba, libusb, npth, openldap, libsecret, pinentry, gnupg, gpgme, libslirp, slirp4netns and podman
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/manifests/1.1.0-1
+ 
+==> Fetching brotli
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/blobs/sha256:5a2e1cc1231
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/manifests/1.28.1
+ 
+==> Fetching c-ares
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/blobs/sha256:c8f453981c4
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/74.2
+ 
+==> Fetching icu4c
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:2b8816388619
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.61.0
+ 
+==> Fetching libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:3e37788
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.48.0
+ 
+==> Fetching libuv
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:d6a002656a1f
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-
+ 
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:ca
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.3.0-1
+ 
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:005380f9
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/manifests/4.0.0-1
+ 
+==> Fetching mpdecimal
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:ca79318f
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.5
+ 
+==> Fetching ncurses
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/blobs/sha256:7c49662d0f
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.10
+ 
+==> Fetching readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:65181d2c0
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/zlib/manifests/1.3.1
+ 
+==> Fetching zlib
+==> Downloading https://ghcr.io/v2/homebrew/core/zlib/blobs/sha256:38f2469db2ce6
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.45.3
+ 
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:ea3542fea62
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.4.6
+ 
+==> Fetching xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:0736983b952c527
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/berkeley-db/5/manifests/5.3.28_
+ 
+==> Fetching berkeley-db@5
+==> Downloading https://ghcr.io/v2/homebrew/core/berkeley-db/5/blobs/sha256:c0e2
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libedit/manifests/20230828-3.1
+ 
+==> Fetching libedit
+==> Downloading https://ghcr.io/v2/homebrew/core/libedit/blobs/sha256:5cb9c8007d
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/manifests/1.21.2
+ 
+==> Fetching krb5
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/blobs/sha256:4bb56ec3b3263
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libtirpc/manifests/1.3.3
+ 
+==> Fetching libtirpc
+==> Downloading https://ghcr.io/v2/homebrew/core/libtirpc/blobs/sha256:26371c5e6
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libnsl/manifests/2.0.1
+ 
+==> Fetching libnsl
+==> Downloading https://ghcr.io/v2/homebrew/core/libnsl/blobs/sha256:fd62e188144
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/bzip2/manifests/1.0.8-2
+ 
+==> Fetching bzip2
+==> Downloading https://ghcr.io/v2/homebrew/core/bzip2/blobs/sha256:a731afa70daa
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/expat/manifests/2.6.2
+ 
+==> Fetching expat
+==> Downloading https://ghcr.io/v2/homebrew/core/expat/blobs/sha256:00d8e476d4e3
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libffi/manifests/3.4.6
+ 
+==> Fetching libffi
+==> Downloading https://ghcr.io/v2/homebrew/core/libffi/blobs/sha256:798c3983a91
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libxcrypt/manifests/4.4.36
+ 
+==> Fetching libxcrypt
+==> Downloading https://ghcr.io/v2/homebrew/core/libxcrypt/blobs/sha256:ad1c4b57
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/unzip/manifests/6.0_8
+ 
+==> Fetching unzip
+==> Downloading https://ghcr.io/v2/homebrew/core/unzip/blobs/sha256:baf15e19852a
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/manifests/3.12.3
+ 
+==> Fetching python@3.12
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/blobs/sha256:faa009
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/node/manifests/22.0.0
+ 
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:bb4253dc4f040
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/mongosh/manifests/2.2.5
+ 
+==> Fetching mongosh
+==> Downloading https://ghcr.io/v2/homebrew/core/mongosh/blobs/sha256:85e0e84b3e
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.43
+ 
+==> Fetching pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:6cd2e07bac70
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/dbus/manifests/1.14.10
+ 
+==> Fetching dbus
+==> Downloading https://ghcr.io/v2/homebrew/core/dbus/blobs/sha256:9037402e48fc1
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/util-linux/manifests/2.39.3-1
+ 
+==> Fetching util-linux
+==> Downloading https://ghcr.io/v2/homebrew/core/util-linux/blobs/sha256:76d8863
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/manifests/2.80.0_2
+ 
+==> Fetching glib
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:24a55d75657e5
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libseccomp/manifests/2.5.5
+ 
+==> Fetching libseccomp
+==> Downloading https://ghcr.io/v2/homebrew/core/libseccomp/blobs/sha256:5f5697a
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libcap/manifests/2.69
+ 
+==> Fetching libcap
+==> Downloading https://ghcr.io/v2/homebrew/core/libcap/blobs/sha256:c76a15fd8be
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/lz4/manifests/1.9.4
+ 
+==> Fetching lz4
+==> Downloading https://ghcr.io/v2/homebrew/core/lz4/blobs/sha256:1757fefc3840e1
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/zstd/manifests/1.5.6
+ 
+==> Fetching zstd
+==> Downloading https://ghcr.io/v2/homebrew/core/zstd/blobs/sha256:0e6ddbd4c969b
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/systemd/manifests/255.5
+ 
+==> Fetching systemd
+==> Downloading https://ghcr.io/v2/homebrew/core/systemd/blobs/sha256:bc2c7f83e9
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/conmon/manifests/2.1.11
+ 
+==> Fetching conmon
+==> Downloading https://ghcr.io/v2/homebrew/core/conmon/blobs/sha256:0c108f34f21
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/yajl/manifests/2.1.0-4
+ 
+==> Fetching yajl
+==> Downloading https://ghcr.io/v2/homebrew/core/yajl/blobs/sha256:c206281370fe7
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/crun/manifests/1.14.4
+ 
+==> Fetching crun
+==> Downloading https://ghcr.io/v2/homebrew/core/crun/blobs/sha256:6f79402ff802e
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libfuse/manifests/3.16.2
+ 
+==> Fetching libfuse
+==> Downloading https://ghcr.io/v2/homebrew/core/libfuse/blobs/sha256:ab801f94a4
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/fuse-overlayfs/manifests/1.13
+ 
+==> Fetching fuse-overlayfs
+==> Downloading https://ghcr.io/v2/homebrew/core/fuse-overlayfs/blobs/sha256:787
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/manifests/6.3.0
+ 
+==> Fetching gmp
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/blobs/sha256:3dca3544faca88
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/manifests/1.2
+ 
+==> Fetching libunistring
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:416da
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libidn2/manifests/2.3.7
+ 
+==> Fetching libidn2
+==> Downloading https://ghcr.io/v2/homebrew/core/libidn2/blobs/sha256:2d94c867e0
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libtasn1/manifests/4.19.0
+ 
+==> Fetching libtasn1
+==> Downloading https://ghcr.io/v2/homebrew/core/libtasn1/blobs/sha256:e994c7b8c
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/nettle/manifests/3.9.1
+ 
+==> Fetching nettle
+==> Downloading https://ghcr.io/v2/homebrew/core/nettle/blobs/sha256:89cb9f1c702
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/p11-kit/manifests/0.25.3
+ 
+==> Fetching p11-kit
+==> Downloading https://ghcr.io/v2/homebrew/core/p11-kit/blobs/sha256:4f7ca21054
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libevent/manifests/2.1.12_1
+ 
+==> Fetching libevent
+==> Downloading https://ghcr.io/v2/homebrew/core/libevent/blobs/sha256:83ef4ce68
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/unbound/manifests/1.19.3
+ 
+==> Fetching unbound
+==> Downloading https://ghcr.io/v2/homebrew/core/unbound/blobs/sha256:c7d900fcfa
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/gnutls/manifests/3.8.4
+ 
+==> Fetching gnutls
+==> Downloading https://ghcr.io/v2/homebrew/core/gnutls/blobs/sha256:9bedb5b302e
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libgpg-error/manifests/1.49
+ 
+==> Fetching libgpg-error
+==> Downloading https://ghcr.io/v2/homebrew/core/libgpg-error/blobs/sha256:225d3
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libassuan/manifests/2.5.7
+ 
+==> Fetching libassuan
+==> Downloading https://ghcr.io/v2/homebrew/core/libassuan/blobs/sha256:fb1e7b91
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libgcrypt/manifests/1.10.3
+ 
+==> Fetching libgcrypt
+==> Downloading https://ghcr.io/v2/homebrew/core/libgcrypt/blobs/sha256:a3e3d7d9
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libksba/manifests/1.6.6
+ 
+==> Fetching libksba
+==> Downloading https://ghcr.io/v2/homebrew/core/libksba/blobs/sha256:b3f1191ff6
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libusb/manifests/1.0.27
+ 
+==> Fetching libusb
+==> Downloading https://ghcr.io/v2/homebrew/core/libusb/blobs/sha256:c8a4b5075fb
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/npth/manifests/1.7
+ 
+==> Fetching npth
+==> Downloading https://ghcr.io/v2/homebrew/core/npth/blobs/sha256:68467d74c0106
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/openldap/manifests/2.6.7
+ 
+==> Fetching openldap
+==> Downloading https://ghcr.io/v2/homebrew/core/openldap/blobs/sha256:f25100432
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libsecret/manifests/0.21.4
+ 
+==> Fetching libsecret
+==> Downloading https://ghcr.io/v2/homebrew/core/libsecret/blobs/sha256:54a70690
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/pinentry/manifests/1.3.0
+ 
+==> Fetching pinentry
+==> Downloading https://ghcr.io/v2/homebrew/core/pinentry/blobs/sha256:7cf5904ba
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/gnupg/manifests/2.4.5
+ 
+==> Fetching gnupg
+==> Downloading https://ghcr.io/v2/homebrew/core/gnupg/blobs/sha256:3d0b4817c653
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/gpgme/manifests/1.23.2_1
+ 
+==> Fetching gpgme
+==> Downloading https://ghcr.io/v2/homebrew/core/gpgme/blobs/sha256:d9b08fc6006b
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/libslirp/manifests/4.7.0
+ 
+==> Fetching libslirp
+==> Downloading https://ghcr.io/v2/homebrew/core/libslirp/blobs/sha256:dda8b4369
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/slirp4netns/manifests/1.3.0
+ 
+==> Fetching slirp4netns
+==> Downloading https://ghcr.io/v2/homebrew/core/slirp4netns/blobs/sha256:2202f3
+ 
+==> Downloading https://ghcr.io/v2/homebrew/core/podman/manifests/5.0.2
+ 
+==> Fetching podman
+==> Downloading https://ghcr.io/v2/homebrew/core/podman/blobs/sha256:a8cbe40ef5f
+ 
+==> Fetching mongodb-atlas-cli
+==> Downloading https://ghcr.io/v2/homebrew/core/mongodb-atlas-cli/blobs/sha256:
+ 
+==> Installing dependencies for mongodb-atlas-cli: brotli, c-ares, icu4c, libnghttp2, libuv, ca-certificates, openssl@3, mpdecimal, ncurses, readline, zlib, sqlite, xz, berkeley-db@5, libedit, krb5, libtirpc, libnsl, bzip2, expat, libffi, libxcrypt, unzip, python@3.12, node, mongosh, pcre2, dbus, util-linux, glib, libseccomp, libcap, lz4, zstd, systemd, conmon, yajl, crun, libfuse, fuse-overlayfs, gmp, libunistring, libidn2, libtasn1, nettle, p11-kit, libevent, unbound, gnutls, libgpg-error, libassuan, libgcrypt, libksba, libusb, npth, openldap, libsecret, pinentry, gnupg, gpgme, libslirp, slirp4netns and podman
+==> Installing mongodb-atlas-cli dependency: brotli
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/manifests/1.1.0-1
+Already downloaded: /home/clay/.cache/Homebrew/downloads/565098509cdfa90593ec9a41b41239f073843f88caed60ddaa3e6194ac4defda--brotli-1.1.0-1.bottle_manifest.json
+==> Pouring brotli--1.1.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+ 
+🍺  /home/linuxbrew/.linuxbrew/Cellar/brotli/1.1.0: 24 files, 981.2KB
+==> Installing mongodb-atlas-cli dependency: c-ares
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/manifests/1.28.1
+Already downloaded: /home/clay/.cache/Homebrew/downloads/b2992b98eb3aa56a1d3ab6a8f535ceb2c84d41f1dca892a50949b8d79bc73f0d--c-ares-1.28.1.bottle_manifest.json
+==> Pouring c-ares--1.28.1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/c-ares/1.28.1: 166 files, 1.3MB
+==> Installing mongodb-atlas-cli dependency: icu4c
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/74.2
+Already downloaded: /home/clay/.cache/Homebrew/downloads/3e5230e726e5548db28bc0cf75710d6405903b742f941113d3dbe7483fad72a4--icu4c-74.2.bottle_manifest.json
+==> Pouring icu4c--74.2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/icu4c/74.2: 270 files, 85.0MB
+==> Installing mongodb-atlas-cli dependency: libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.61.0
+Already downloaded: /home/clay/.cache/Homebrew/downloads/84e039765210f9da314a9b989360b06406c6123f9aae7b1a47dd010504d3bcfb--libnghttp2-1.61.0.bottle_manifest.json
+==> Pouring libnghttp2--1.61.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libnghttp2/1.61.0: 14 files, 913.4KB
+==> Installing mongodb-atlas-cli dependency: libuv
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.48.0
+Already downloaded: /home/clay/.cache/Homebrew/downloads/8ee1d27fb604f55e3c4415b96e34dc9c7f557996832c372d984c8162b29a4ad2--libuv-1.48.0.bottle_manifest.json
+==> Pouring libuv--1.48.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libuv/1.48.0: 20 files, 1.3MB
+==> Installing mongodb-atlas-cli dependency: ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-
+Already downloaded: /home/clay/.cache/Homebrew/downloads/c431e0186df2ccc2ea942b34a3c26c2cebebec8e07ad6abdae48447a52c5f506--ca-certificates-2024-03-11.bottle_manifest.json
+==> Pouring ca-certificates--2024-03-11.all.bottle.tar.gz
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+ 
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ca-certificates/2024-03-11: 3 files, 245.2KB
+==> Installing mongodb-atlas-cli dependency: openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.3.0-1
+Already downloaded: /home/clay/.cache/Homebrew/downloads/cd7e4cb72da375d51619d8c60fb91a70696e352edb515631b5751d05342e471d--openssl@3-3.3.0-1.bottle_manifest.json
+==> Pouring openssl@3--3.3.0.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/openssl@3/3.3.0: 6,986 files, 38.8MB
+==> Installing mongodb-atlas-cli dependency: mpdecimal
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/manifests/4.0.0-1
+Already downloaded: /home/clay/.cache/Homebrew/downloads/7b63c3b34bee402290af49fac829a6682ab45ea5c9258b6fe03b590a03a4c4a9--mpdecimal-4.0.0-1.bottle_manifest.json
+==> Pouring mpdecimal--4.0.0.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mpdecimal/4.0.0: 21 files, 798.9KB
+==> Installing mongodb-atlas-cli dependency: ncurses
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.5
+Already downloaded: /home/clay/.cache/Homebrew/downloads/b2f8ce4e08b15832435170efd265346225ee388d5baab3d5c50e3a77c5673b5a--ncurses-6.5.bottle_manifest.json
+==> Pouring ncurses--6.5.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ncurses/6.5: 4,036 files, 10.9MB
+==> Installing mongodb-atlas-cli dependency: readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.10
+Already downloaded: /home/clay/.cache/Homebrew/downloads/4ddd52803319828799f1932d4c7fa8d11c667049b20a56341c0c19246a1be93b--readline-8.2.10.bottle_manifest.json
+==> Pouring readline--8.2.10.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/readline/8.2.10: 50 files, 2MB
+==> Installing mongodb-atlas-cli dependency: zlib
+==> Downloading https://ghcr.io/v2/homebrew/core/zlib/manifests/1.3.1
+Already downloaded: /home/clay/.cache/Homebrew/downloads/f68d0caf232d52f2aa586abefbbfd7e958e384d84f3967008fa83de94b5f10ae--zlib-1.3.1.bottle_manifest.json
+==> Pouring zlib--1.3.1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/zlib/1.3.1: 13 files, 473.5KB
+==> Installing mongodb-atlas-cli dependency: sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.45.3
+Already downloaded: /home/clay/.cache/Homebrew/downloads/9eebda014aefbd585433274db989aa060c29200f656e6e106b4c1956438a2401--sqlite-3.45.3.bottle_manifest.json
+==> Pouring sqlite--3.45.3.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/sqlite/3.45.3: 12 files, 6.1MB
+==> Installing mongodb-atlas-cli dependency: xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.4.6
+Already downloaded: /home/clay/.cache/Homebrew/downloads/b2cc4077807c100af6e0253f51d186f187ff55165638cbe3a4aa16d1c4762660--xz-5.4.6.bottle_manifest.json
+==> Pouring xz--5.4.6.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xz/5.4.6: 164 files, 2.7MB
+==> Installing mongodb-atlas-cli dependency: berkeley-db@5
+==> Downloading https://ghcr.io/v2/homebrew/core/berkeley-db/5/manifests/5.3.28_
+Already downloaded: /home/clay/.cache/Homebrew/downloads/17e4e0def00184b561c8a490b5c0813a7c4f5e1365eb2e927570786eb4e05e09--berkeley-db@5-5.3.28_1.bottle_manifest.json
+==> Pouring berkeley-db@5--5.3.28_1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/berkeley-db@5/5.3.28_1: 5,271 files, 87.7MB
+==> Installing mongodb-atlas-cli dependency: libedit
+==> Downloading https://ghcr.io/v2/homebrew/core/libedit/manifests/20230828-3.1
+Already downloaded: /home/clay/.cache/Homebrew/downloads/aa32e07f286c25cd98716dc981bedecd086e432b4f5336ca63a30da3be5c79e1--libedit-20230828-3.1.bottle_manifest.json
+==> Pouring libedit--20230828-3.1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libedit/20230828-3.1: 54 files, 791.9KB
+==> Installing mongodb-atlas-cli dependency: krb5
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/manifests/1.21.2
+Already downloaded: /home/clay/.cache/Homebrew/downloads/1dac813e15dc58f7f64511565951ee43912a4a82b355448e23600e07b1b7107c--krb5-1.21.2.bottle_manifest.json
+==> Pouring krb5--1.21.2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/krb5/1.21.2: 163 files, 5.3MB
+==> Installing mongodb-atlas-cli dependency: libtirpc
+==> Downloading https://ghcr.io/v2/homebrew/core/libtirpc/manifests/1.3.3
+Already downloaded: /home/clay/.cache/Homebrew/downloads/8855f5ef631c25ab1532940cd26ad4e298df26b4414ccd1426becf1b4ed7a3f9--libtirpc-1.3.3.bottle_manifest.json
+==> Pouring libtirpc--1.3.3.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libtirpc/1.3.3: 85 files, 1MB
+==> Installing mongodb-atlas-cli dependency: libnsl
+==> Downloading https://ghcr.io/v2/homebrew/core/libnsl/manifests/2.0.1
+Already downloaded: /home/clay/.cache/Homebrew/downloads/aa9502e1380fc6bf1af297a4f3d3402c1c175bd35d24d012b71a1a90c54d38bc--libnsl-2.0.1.bottle_manifest.json
+==> Pouring libnsl--2.0.1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libnsl/2.0.1: 17 files, 187.2KB
+==> Installing mongodb-atlas-cli dependency: bzip2
+==> Downloading https://ghcr.io/v2/homebrew/core/bzip2/manifests/1.0.8-2
+Already downloaded: /home/clay/.cache/Homebrew/downloads/c1a79a32cc9082c99fc318e6b2596b8b1f6e99abacb32bcbe88f979e4be5e4ea--bzip2-1.0.8-2.bottle_manifest.json
+==> Pouring bzip2--1.0.8.x86_64_linux.bottle.2.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bzip2/1.0.8: 31 files, 605KB
+==> Installing mongodb-atlas-cli dependency: expat
+==> Downloading https://ghcr.io/v2/homebrew/core/expat/manifests/2.6.2
+Already downloaded: /home/clay/.cache/Homebrew/downloads/aef02777a16b814ca6284e98d9bfea8a80b97c8cbba6d78eca020ede9a5a6fcc--expat-2.6.2.bottle_manifest.json
+==> Pouring expat--2.6.2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/expat/2.6.2: 22 files, 895.1KB
+==> Installing mongodb-atlas-cli dependency: libffi
+==> Downloading https://ghcr.io/v2/homebrew/core/libffi/manifests/3.4.6
+Already downloaded: /home/clay/.cache/Homebrew/downloads/2d373c9b8d06ce1d9634d08a4be79711fd482169e98bc830509aa28f3f07926d--libffi-3.4.6.bottle_manifest.json
+==> Pouring libffi--3.4.6.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libffi/3.4.6: 18 files, 765.5KB
+==> Installing mongodb-atlas-cli dependency: libxcrypt
+==> Downloading https://ghcr.io/v2/homebrew/core/libxcrypt/manifests/4.4.36
+Already downloaded: /home/clay/.cache/Homebrew/downloads/950e230307625f9e57d74f0076caab42b6c67a325c70b83efa2c9cc84be1f839--libxcrypt-4.4.36.bottle_manifest.json
+==> Pouring libxcrypt--4.4.36.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libxcrypt/4.4.36: 24 files, 369.2KB
+==> Installing mongodb-atlas-cli dependency: unzip
+==> Downloading https://ghcr.io/v2/homebrew/core/unzip/manifests/6.0_8
+Already downloaded: /home/clay/.cache/Homebrew/downloads/b9a98c1a65dea38eb0bb5d9106a5758ed0ff17635811bd7f7cd6be5908c2961b--unzip-6.0_8.bottle_manifest.json
+==> Pouring unzip--6.0_8.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/unzip/6.0_8: 16 files, 597.2KB
+==> Installing mongodb-atlas-cli dependency: python@3.12
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/manifests/3.12.3
+Already downloaded: /home/clay/.cache/Homebrew/downloads/5065c4d76c933aad4e13bd77c1bf37f0afe78f4608261edd170e331cb36c8a0d--python@3.12-3.12.3.bottle_manifest.json
+==> Pouring python@3.12--3.12.3.x86_64_linux.bottle.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/bin/python3.12 -Im ensu
+==> /home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/bin/python3.12 -Im pip 
+🍺  /home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3: 2,870 files, 71.9MB
+==> Installing mongodb-atlas-cli dependency: node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/manifests/22.0.0
+Already downloaded: /home/clay/.cache/Homebrew/downloads/2de85ef19cd0ba7bdc9cfe6be3c2faf096feb1ece0319ca6539cfbfacbda46c1--node-22.0.0.bottle_manifest.json
+==> Pouring node--22.0.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/node/22.0.0: 2,140 files, 83.1MB
+==> Installing mongodb-atlas-cli dependency: mongosh
+==> Downloading https://ghcr.io/v2/homebrew/core/mongosh/manifests/2.2.5
+Already downloaded: /home/clay/.cache/Homebrew/downloads/9f98b4a731ae55e08d3c209d7134aff047e66acb6707d633999368daae42d3e7--mongosh-2.2.5.bottle_manifest.json
+==> Pouring mongosh--2.2.5.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mongosh/2.2.5: 11,121 files, 59.2MB
+==> Installing mongodb-atlas-cli dependency: pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.43
+Already downloaded: /home/clay/.cache/Homebrew/downloads/4c12870adcfbf27eeeae4f44a420311ca3449f06a2fd8f6fcfe3d13db18087b4--pcre2-10.43.bottle_manifest.json
+==> Pouring pcre2--10.43.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/pcre2/10.43: 238 files, 7.3MB
+==> Installing mongodb-atlas-cli dependency: dbus
+==> Downloading https://ghcr.io/v2/homebrew/core/dbus/manifests/1.14.10
+Already downloaded: /home/clay/.cache/Homebrew/downloads/2dee97539c09d15349d9935f14c299bce3e52d11fd6d399a05a5190d0e7a1028--dbus-1.14.10.bottle_manifest.json
+==> Pouring dbus--1.14.10.x86_64_linux.bottle.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/dbus/1.14.10/bin/dbus-uuidgen --ensure=/ho
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dbus/1.14.10: 77 files, 2.9MB
+==> Installing mongodb-atlas-cli dependency: util-linux
+==> Downloading https://ghcr.io/v2/homebrew/core/util-linux/manifests/2.39.3-1
+Already downloaded: /home/clay/.cache/Homebrew/downloads/811c2708e034b96b17e1a032fe2265d27e09e0deba568a4bbb1f39b6caef4510--util-linux-2.39.3-1.bottle_manifest.json
+==> Pouring util-linux--2.39.3.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/util-linux/2.39.3: 412 files, 24.8MB
+==> Installing mongodb-atlas-cli dependency: glib
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/manifests/2.80.0_2
+Already downloaded: /home/clay/.cache/Homebrew/downloads/bad07197fbf4d9c1af0f49bb79d89a3b369de9b90872243c8bbcfea7d4385475--glib-2.80.0_2.bottle_manifest.json
+==> Pouring glib--2.80.0_2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/glib/2.80.0_2: 532 files, 40.4MB
+==> Installing mongodb-atlas-cli dependency: libseccomp
+==> Downloading https://ghcr.io/v2/homebrew/core/libseccomp/manifests/2.5.5
+Already downloaded: /home/clay/.cache/Homebrew/downloads/b6ef2000f20090279bab32f2e0842da28e2a91c0c59c2f84b5833d53047c2be0--libseccomp-2.5.5.bottle_manifest.json
+==> Pouring libseccomp--2.5.5.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libseccomp/2.5.5: 46 files, 662KB
+==> Installing mongodb-atlas-cli dependency: libcap
+==> Downloading https://ghcr.io/v2/homebrew/core/libcap/manifests/2.69
+Already downloaded: /home/clay/.cache/Homebrew/downloads/686c24487732ef743b26325cb6d31abae653b97d379a56729a3dd5a6ffe85fd6--libcap-2.69.bottle_manifest.json
+==> Pouring libcap--2.69.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libcap/2.69: 99 files, 464KB
+==> Installing mongodb-atlas-cli dependency: lz4
+==> Downloading https://ghcr.io/v2/homebrew/core/lz4/manifests/1.9.4
+Already downloaded: /home/clay/.cache/Homebrew/downloads/379e59b981667f9585b33a2ff318769d8edca3ce6fd2e9a67ed291ae3e0cc872--lz4-1.9.4.bottle_manifest.json
+==> Pouring lz4--1.9.4.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lz4/1.9.4: 22 files, 695.3KB
+==> Installing mongodb-atlas-cli dependency: zstd
+==> Downloading https://ghcr.io/v2/homebrew/core/zstd/manifests/1.5.6
+Already downloaded: /home/clay/.cache/Homebrew/downloads/29403e0df5404d8aeca0e750ac135ec9ef44fc5eeb6df69170ed602acabf0ffb--zstd-1.5.6.bottle_manifest.json
+==> Pouring zstd--1.5.6.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/zstd/1.5.6: 31 files, 2.9MB
+==> Installing mongodb-atlas-cli dependency: systemd
+==> Downloading https://ghcr.io/v2/homebrew/core/systemd/manifests/255.5
+Already downloaded: /home/clay/.cache/Homebrew/downloads/7ad6a638091b87c2bae9fa49a1e651de5bbe8258cbd0b7c1d523edee4e1b0e1d--systemd-255.5.bottle_manifest.json
+==> Pouring systemd--255.5.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/systemd/255.5: 1,718 files, 29.9MB
+==> Installing mongodb-atlas-cli dependency: conmon
+==> Downloading https://ghcr.io/v2/homebrew/core/conmon/manifests/2.1.11
+Already downloaded: /home/clay/.cache/Homebrew/downloads/b68d7e8112ea49879c87ecc6b1c2b7f533baa737904757a9217e48a153ae0b29--conmon-2.1.11.bottle_manifest.json
+==> Pouring conmon--2.1.11.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/conmon/2.1.11: 7 files, 234.6KB
+==> Installing mongodb-atlas-cli dependency: yajl
+==> Downloading https://ghcr.io/v2/homebrew/core/yajl/manifests/2.1.0-4
+Already downloaded: /home/clay/.cache/Homebrew/downloads/6c19b584087c1869262bcdc5b310e0b234ed5327c5795d54025b104d79fa40db--yajl-2.1.0-4.bottle_manifest.json
+==> Pouring yajl--2.1.0.x86_64_linux.bottle.4.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/yajl/2.1.0: 18 files, 266.4KB
+==> Installing mongodb-atlas-cli dependency: crun
+==> Downloading https://ghcr.io/v2/homebrew/core/crun/manifests/1.14.4
+Already downloaded: /home/clay/.cache/Homebrew/downloads/12cc96d22fcf55d1f74fdd91a1168462232661fe48b0cd0e99e356d66de676a1--crun-1.14.4.bottle_manifest.json
+==> Pouring crun--1.14.4.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/crun/1.14.4: 9 files, 2.0MB
+==> Installing mongodb-atlas-cli dependency: libfuse
+==> Downloading https://ghcr.io/v2/homebrew/core/libfuse/manifests/3.16.2
+Already downloaded: /home/clay/.cache/Homebrew/downloads/8720cceb61ef9e06ea42ebbacd726b7462df059b803d79c45bfd47f05553ec22--libfuse-3.16.2.bottle_manifest.json
+==> Pouring libfuse--3.16.2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libfuse/3.16.2: 25 files, 687.9KB
+==> Installing mongodb-atlas-cli dependency: fuse-overlayfs
+==> Downloading https://ghcr.io/v2/homebrew/core/fuse-overlayfs/manifests/1.13
+Already downloaded: /home/clay/.cache/Homebrew/downloads/ad0172d026f4b80cf4b331ad01665d68ae203a4a195f5c3dc781c42e0270c260--fuse-overlayfs-1.13.bottle_manifest.json
+==> Pouring fuse-overlayfs--1.13.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fuse-overlayfs/1.13: 7 files, 176.8KB
+==> Installing mongodb-atlas-cli dependency: gmp
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/manifests/6.3.0
+Already downloaded: /home/clay/.cache/Homebrew/downloads/70a72a71216843d66a953c06ff6337445ce9bc94fae9f0e301e2f59005274a8e--gmp-6.3.0.bottle_manifest.json
+==> Pouring gmp--6.3.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gmp/6.3.0: 23 files, 3.9MB
+==> Installing mongodb-atlas-cli dependency: libunistring
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/manifests/1.2
+Already downloaded: /home/clay/.cache/Homebrew/downloads/48ac60445a77a63996cf15f6414f68a620d544fb683031b14eb3aea95c3064f6--libunistring-1.2.bottle_manifest.json
+==> Pouring libunistring--1.2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libunistring/1.2: 60 files, 5.6MB
+==> Installing mongodb-atlas-cli dependency: libidn2
+==> Downloading https://ghcr.io/v2/homebrew/core/libidn2/manifests/2.3.7
+Already downloaded: /home/clay/.cache/Homebrew/downloads/45d1d4d2930c4782bf53e761a1c0166cd8a40f4193ac8c44e86f0b6708e80354--libidn2-2.3.7.bottle_manifest.json
+==> Pouring libidn2--2.3.7.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libidn2/2.3.7: 81 files, 1.2MB
+==> Installing mongodb-atlas-cli dependency: libtasn1
+==> Downloading https://ghcr.io/v2/homebrew/core/libtasn1/manifests/4.19.0
+Already downloaded: /home/clay/.cache/Homebrew/downloads/8abecce04f40738bc8a6921a6b96d847ea5c9759185d4bd9c7c9b5fb4922c375--libtasn1-4.19.0.bottle_manifest.json
+==> Pouring libtasn1--4.19.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libtasn1/4.19.0: 62 files, 653.5KB
+==> Installing mongodb-atlas-cli dependency: nettle
+==> Downloading https://ghcr.io/v2/homebrew/core/nettle/manifests/3.9.1
+Already downloaded: /home/clay/.cache/Homebrew/downloads/a02ae3a1ecc6cff56e632f6452fd57f3fa72be16cde0b69e5b47747283fd3f6b--nettle-3.9.1.bottle_manifest.json
+==> Pouring nettle--3.9.1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/nettle/3.9.1: 94 files, 3.0MB
+==> Installing mongodb-atlas-cli dependency: p11-kit
+==> Downloading https://ghcr.io/v2/homebrew/core/p11-kit/manifests/0.25.3
+Already downloaded: /home/clay/.cache/Homebrew/downloads/cc547bf2f72da03680090015f5b720aff280ce33de9c33783a69c24fe97a4246--p11-kit-0.25.3.bottle_manifest.json
+==> Pouring p11-kit--0.25.3.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/p11-kit/0.25.3: 29 files, 5.6MB
+==> Installing mongodb-atlas-cli dependency: libevent
+==> Downloading https://ghcr.io/v2/homebrew/core/libevent/manifests/2.1.12_1
+Already downloaded: /home/clay/.cache/Homebrew/downloads/68b113f9ab63db45f4e1860de522ce2ca4fa081eb3c0d5c7d6005a35c3cf8d06--libevent-2.1.12_1.bottle_manifest.json
+==> Pouring libevent--2.1.12_1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libevent/2.1.12_1: 62 files, 2.6MB
+==> Installing mongodb-atlas-cli dependency: unbound
+==> Downloading https://ghcr.io/v2/homebrew/core/unbound/manifests/1.19.3
+Already downloaded: /home/clay/.cache/Homebrew/downloads/62a868665662004deadb9a12b9e6df7ff755832caa1fd9a43d76095268fcb7c5--unbound-1.19.3.bottle_manifest.json
+==> Pouring unbound--1.19.3.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/unbound/1.19.3: 59 files, 10.2MB
+==> Installing mongodb-atlas-cli dependency: gnutls
+==> Downloading https://ghcr.io/v2/homebrew/core/gnutls/manifests/3.8.4
+Already downloaded: /home/clay/.cache/Homebrew/downloads/73c18cc76ca68c25efa04b897881358a5ad032ae8e54f9c5fe81b70875128236--gnutls-3.8.4.bottle_manifest.json
+==> Pouring gnutls--3.8.4.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gnutls/3.8.4: 1,295 files, 11.7MB
+==> Installing mongodb-atlas-cli dependency: libgpg-error
+==> Downloading https://ghcr.io/v2/homebrew/core/libgpg-error/manifests/1.49
+Already downloaded: /home/clay/.cache/Homebrew/downloads/fc35de478622650aca14d8c717ef01e2f6782f71c200739cc88435d236f6d5bf--libgpg-error-1.49.bottle_manifest.json
+==> Pouring libgpg-error--1.49.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libgpg-error/1.49: 50 files, 2.0MB
+==> Installing mongodb-atlas-cli dependency: libassuan
+==> Downloading https://ghcr.io/v2/homebrew/core/libassuan/manifests/2.5.7
+Already downloaded: /home/clay/.cache/Homebrew/downloads/8cb43c6a5a9a9166aa360a61c9b4500c5a2d005f50e7987377db28889e4eeaec--libassuan-2.5.7.bottle_manifest.json
+==> Pouring libassuan--2.5.7.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libassuan/2.5.7: 18 files, 600.3KB
+==> Installing mongodb-atlas-cli dependency: libgcrypt
+==> Downloading https://ghcr.io/v2/homebrew/core/libgcrypt/manifests/1.10.3
+Already downloaded: /home/clay/.cache/Homebrew/downloads/51a9d782e7010eccf6d60ff8e69c811398480eb544aec8866787a22cda36fccd--libgcrypt-1.10.3.bottle_manifest.json
+==> Pouring libgcrypt--1.10.3.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libgcrypt/1.10.3: 24 files, 3.9MB
+==> Installing mongodb-atlas-cli dependency: libksba
+==> Downloading https://ghcr.io/v2/homebrew/core/libksba/manifests/1.6.6
+Already downloaded: /home/clay/.cache/Homebrew/downloads/8a70e240824ead18d24c8fe531a1f227411d6156d6c0c06bcb7c98091a00bbae--libksba-1.6.6.bottle_manifest.json
+==> Pouring libksba--1.6.6.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libksba/1.6.6: 19 files, 589.2KB
+==> Installing mongodb-atlas-cli dependency: libusb
+==> Downloading https://ghcr.io/v2/homebrew/core/libusb/manifests/1.0.27
+Already downloaded: /home/clay/.cache/Homebrew/downloads/55f37930c4e678b6d2cd789c12b59fc9ec1784ecd5c034e3ea54721c7f32272b--libusb-1.0.27.bottle_manifest.json
+==> Pouring libusb--1.0.27.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libusb/1.0.27: 23 files, 654.8KB
+==> Installing mongodb-atlas-cli dependency: npth
+==> Downloading https://ghcr.io/v2/homebrew/core/npth/manifests/1.7
+Already downloaded: /home/clay/.cache/Homebrew/downloads/c0f73a420f4c8e6571ae77c0e4ace02c4a817b6f5f97abf95e8251b59a81da0a--npth-1.7.bottle_manifest.json
+==> Pouring npth--1.7.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/npth/1.7: 13 files, 152KB
+==> Installing mongodb-atlas-cli dependency: openldap
+==> Downloading https://ghcr.io/v2/homebrew/core/openldap/manifests/2.6.7
+Already downloaded: /home/clay/.cache/Homebrew/downloads/e87d8ed2b5650e16104d32d46c66a2385b30073d8fc68d969c74d1caaf8b6d75--openldap-2.6.7.bottle_manifest.json
+==> Pouring openldap--2.6.7.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/openldap/2.6.7: 342 files, 8.8MB
+==> Installing mongodb-atlas-cli dependency: libsecret
+==> Downloading https://ghcr.io/v2/homebrew/core/libsecret/manifests/0.21.4
+Already downloaded: /home/clay/.cache/Homebrew/downloads/3dcd16bcc82f960b57988cf0bc76669c92892f4d3eba2b192b7a162138a4af1d--libsecret-0.21.4.bottle_manifest.json
+==> Pouring libsecret--0.21.4.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libsecret/0.21.4: 93 files, 1.9MB
+==> Installing mongodb-atlas-cli dependency: pinentry
+==> Downloading https://ghcr.io/v2/homebrew/core/pinentry/manifests/1.3.0
+Already downloaded: /home/clay/.cache/Homebrew/downloads/1c367c70ebd85ad4f86742be85612cee36d9d50ad6c4da7f089f64b13bc46607--pinentry-1.3.0.bottle_manifest.json
+==> Pouring pinentry--1.3.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/pinentry/1.3.0: 12 files, 434.3KB
+==> Installing mongodb-atlas-cli dependency: gnupg
+==> Downloading https://ghcr.io/v2/homebrew/core/gnupg/manifests/2.4.5
+Already downloaded: /home/clay/.cache/Homebrew/downloads/3162bd6f04668fb253e84aa2832855b5535ddcf7cfd21a9079f235cd7cb7b122--gnupg-2.4.5.bottle_manifest.json
+==> Pouring gnupg--2.4.5.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gnupg/2.4.5: 139 files, 15.8MB
+==> Installing mongodb-atlas-cli dependency: gpgme
+==> Downloading https://ghcr.io/v2/homebrew/core/gpgme/manifests/1.23.2_1
+Already downloaded: /home/clay/.cache/Homebrew/downloads/d2fe23e81c046d445218bb6231927431d4d7dff0d7bc727cf237511500fcbf59--gpgme-1.23.2_1.bottle_manifest.json
+==> Pouring gpgme--1.23.2_1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gpgme/1.23.2_1: 109 files, 5.7MB
+==> Installing mongodb-atlas-cli dependency: libslirp
+==> Downloading https://ghcr.io/v2/homebrew/core/libslirp/manifests/4.7.0
+Already downloaded: /home/clay/.cache/Homebrew/downloads/d8b5de971474690b01b484c84652c487b14a22eded9d5b91cecae2995692c598--libslirp-4.7.0.bottle_manifest.json
+==> Pouring libslirp--4.7.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libslirp/4.7.0: 12 files, 485.9KB
+==> Installing mongodb-atlas-cli dependency: slirp4netns
+==> Downloading https://ghcr.io/v2/homebrew/core/slirp4netns/manifests/1.3.0
+Already downloaded: /home/clay/.cache/Homebrew/downloads/204f8722911dc6bf33618e0ade355752bbebd261345eec9ad8a8c49c5a37b2df--slirp4netns-1.3.0.bottle_manifest.json
+==> Pouring slirp4netns--1.3.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/slirp4netns/1.3.0: 6 files, 172.8KB
+==> Installing mongodb-atlas-cli dependency: podman
+==> Downloading https://ghcr.io/v2/homebrew/core/podman/manifests/5.0.2
+Already downloaded: /home/clay/.cache/Homebrew/downloads/80ffa973ff08c2898dfc19e1f89dba66ea1d365289a499b5ff5a8e6e492d4aa7--podman-5.0.2.bottle_manifest.json
+==> Pouring podman--5.0.2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/podman/5.0.2: 259 files, 129.9MB
+==> Installing mongodb-atlas-cli
+==> Pouring mongodb-atlas-cli--1.21.0.x86_64_linux.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mongodb-atlas-cli/1.21.0: 9 files, 59.5MB
+==> Running `brew cleanup mongodb-atlas-cli`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> mongodb-atlas-cli
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
