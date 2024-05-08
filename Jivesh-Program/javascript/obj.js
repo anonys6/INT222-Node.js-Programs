@@ -1,6 +1,6 @@
 var a = "Hello"
 var b = 123
-var result = a+b
+var result = a + b
 
 // console.log(result);
 // console.log(typeof result);
@@ -8,7 +8,7 @@ var result = a+b
 
 const person = {
     name: "John",
-    age:30
+    age: 30
 }
 
 // person = 50 //Will result in error becuase we cannot reassign a constant variable

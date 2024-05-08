@@ -1,31 +1,32 @@
 const readline = require('readline');
 
 const a = readline.createInterface({
-    input:process.stdin,
-    output:process.stdout
+    input: process.stdin,
+    output: process.stdout
 });
-a.question('Enter a value:',(userInput)=>{
+
+a.question('Enter a value:', (userInput) => {
     const num = parseInt(userInput);
-    if(!isNaN(num)){
+    if (!isNaN(num)) {
         table(userInput);
     }
-    else{
+    else {
         console.log('Invalid Input');
     }
     a.close();
 });
 
-function table(fromNumber){
+function table(fromNumber) {
     let num = 0;
     console.log("table: ");
-    let interval = setInterval(function(){
+    let interval = setInterval(function () {
         num++;
-        if(num<11){
-            console.log(fromNumber,"*",num,"=",fromNumber*num);
+        if (num < 11) {
+            console.log(fromNumber, "*", num, "=", fromNumber * num);
         }
-        else{
+        else {
             console.log('End');
             clearInterval(interval);
         }
-    },1000);
+    }, 1000);
 }
