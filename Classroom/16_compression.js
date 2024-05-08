@@ -22,45 +22,26 @@
 // });
 
 
-const zlib = require('zlib');
-const fs = require('fs');
-
-const gzip = zlib.createGzip();
-const inp = fs.createReadStream('files/Input.txt');
-const out = fs.createWriteStream('files/Input.txt.gz');
-
-inp.pipe(gzip).pipe(out);
-console.log('File compressed');
-
-
-
-
-// const zlib1 = require('zlib');
-// const input = 'Hello, world!';
-// zlib1.deflate(input, (err, buffer) => {
-// if (!err) {
-// console.log('Compressed data:', buffer.toString('base64'));
-// }
-// });
-
 // const zlib = require('zlib');
-// const compressedData = Buffer.from('eJzzSM3JyddRKM8vyklRBAAgXgSK','base64');
-// zlib.inflate(compressedData, (err, Buffer) => {
-// if (!err) {
-// console.log('Decompressed data:', Buffer.toString());
-// }
-// });
+// const fs = require('fs');
+
+// const gzip = zlib.createGzip();
+// const inp = fs.createReadStream('files/Input.txt');
+// const out = fs.createWriteStream('files/Input.txt.gz');
+
+// inp.pipe(gzip).pipe(out);
+// console.log('File compressed');
 
 
 
 // const zlib = require('zlib');
 // const compressedData = Buffer.from('eJzzsDPUMAry9dJRK04', 'base64');
 // zlib.inflate(compressedData, (err, buffer) => {
-// if (err) {
-// console.error('Decompression error:', err);
-// } else {
-// console.log('Decompressed data:', buffer.toString('base64'));
-// }
+//     if (err) {
+//         console.error('Decompression error:', err);
+//     } else {
+//         console.log('Decompressed data:', buffer.toString('base64'));
+//     }
 // });
 
 // const zlib = require('zlib');
@@ -70,14 +51,14 @@ console.log('File compressed');
 // const compressedBuffer = Buffer.from(compressedData, 'base64');
 // // Decompress the data
 // zlib.inflate(compressedBuffer, (err, buffer) => {
-// if (err) {
-// console.error('Decompression error:', err);
-// } else {
-// console.log('Decompressed data:', buffer.toString());
-// }
+//     if (err) {
+//         console.error('Decompression error:', err);
+//     } else {
+//         console.log('Decompressed data:', buffer.toString());
+//     }
 // });
 
-// const zlib= require('zlib');
+// const zlib = require('zlib');
 // const gzip = zlib.createGzip();
 // const fs = require('fs');
 // const inp = fs.createReadStream('Input2.txt');
@@ -85,13 +66,13 @@ console.log('File compressed');
 // inp.pipe(gzip).pipe(out)
 // console.log('File compressed');
 
-var fs = require("fs");
-var zlib = require('zlib');
-// Decompress the file
-fs.createReadStream('New.txt.gz')
-    .pipe(zlib.createGunzip())
-    .pipe(fs.createWriteStream('New.txt'));
-console.log("File Decompressed.");
+// var fs = require("fs");
+// var zlib = require('zlib');
+// // Decompress the file
+// fs.createReadStream('New.txt.gz')
+//     .pipe(zlib.createGunzip())
+//     .pipe(fs.createWriteStream('New.txt'));
+// console.log("File Decompressed.");
 
 // const fs = require('fs');
 // const http = require('http');
